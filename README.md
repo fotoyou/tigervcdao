@@ -1,8 +1,15 @@
-# Tiger VC DAO
-#### tigervc contract address on kovan testnet : 0x6A9E734c05419b131A6b237788ABe0B87Ac3BAAd
+# Basic Sample Hardhat Project
 
-#### tiger contract address on kovan testnet: 0x76B3a3d630A269c82EeC5c3EaFC1b72eaa3494D6
+This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
 
-**https://kovan.etherscan.io/address/0x6a9e734c05419b131a6b237788abe0b87ac3baad**
+Try running some of the following tasks:
 
-**https://kovan.etherscan.io/address/0x76b3a3d630a269c82eec5c3eafc1b72eaa3494d6**
+```shell
+npx hardhat accounts
+npx hardhat compile
+npx hardhat clean
+npx hardhat test
+npx hardhat node
+node scripts/sample-script.js
+npx hardhat help
+```
